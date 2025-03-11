@@ -26,6 +26,7 @@ namespace Trophylibrary.Tests
 
             // Test string with less than 3 characters
             Assert.ThrowsException<ArgumentException>(() => trophy.Competition = "AB");
+           
         }
 
         [TestMethod()]
